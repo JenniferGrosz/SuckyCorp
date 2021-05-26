@@ -1,12 +1,6 @@
 # SU_OMSBA5068_AI_Data_Translation_Challenge
 Data Translation Challenge SU 5068 Final Project
 
----
-title: "SuckyCorp. - Sucky Model Analysis"
-output:
-  html_document:
-    toc: yes
----
 #### Seattle University Artificial Intelligence
 ##### Data Translation Challenge March 2021
 ##### Author: Jennifer Grosz
