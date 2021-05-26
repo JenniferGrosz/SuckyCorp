@@ -99,7 +99,7 @@ conditions with low dirt and high walls by boosting scores by 141%.
 
 Figure 6.A and Figure 6.B below provide visual representations of these results for average scores per battery capacity tested over all environments with low dirt and high walls.
 
-![Figure 6.A](03_plots_and_tables/6A.png) 
+![Figure 6.A](03_plots_and_tables/6a.png) 
 
 ![Figure 6.B](03_plots_and_tables/6B.png)
 
@@ -110,8 +110,7 @@ In terms of performance under varying conditions, the Omniscient Sucky model per
  
 The Memory Sucky model makes for a perfect high-performance, lower-cost alternative option to the top-of-the-line Omniscient Sucky model, as this model still produces excellent performance scores without the high fixed costs associated with the required installation of sensors at the customer’s site. If you were to drop one model from this line of products, I would recommend discontinuing Non-Sensing Sucky. This model underperforms across all varying environmental conditions and has the potential to leave customers dissatisfied with their purchase due to lack of performance. Instead of the Non-Sensing Sucky model, I would recommend keeping the Sensing Sucky model in your line of products as the lowest- cost, lowest-performance-tier agent in your vacuum product offerings. Comparatively, the Sensing Sucky does not do a poor job under high dirt, low wall conditions and its performance is 309% better than the Non-Sensing Sucky model under those same environmental conditions.
 
-With that said, if it is your intention to identify a method for improving Memory Sucky’s performance, it would be my recommendation to improve that model’s battery capacity as my tests have provided evidence that increasing battery capacity has a direct effect on improving this Sucky model’s performance. The graph shown as Figure C of the appendix is representative of the increasing
-relationship between battery capacity and total average score. In order to definitively determine at what level Memory Sucky’s battery capacity should be increased to, further analysis is required to account for the cost of increasing the battery capacity as well as the cost associated with manufacturing the Omniscient Sucky model. It would be a good next step for SuckyCorp. to determine at what level Memory Sucky outperforms even the Omniscient Sucky model, but in order to make a definitive statement about this the analysis would require cost information associated with each of these Models and the battery capacity enhancements.
+With that said, if it is your intention to identify a method for improving Memory Sucky’s performance, it would be my recommendation to improve that model’s battery capacity as my tests have provided evidence that increasing battery capacity has a direct effect on improving this Sucky model’s performance. The graph shown as Figure C of the appendix is representative of the increasing relationship between battery capacity and total average score. In order to definitively determine at what level Memory Sucky’s battery capacity should be increased to, further analysis is required to account for the cost of increasing the battery capacity as well as the cost associated with manufacturing the Omniscient Sucky model. It would be a good next step for SuckyCorp. to determine at what level Memory Sucky outperforms even the Omniscient Sucky model, but in order to make a definitive statement about this the analysis would require cost information associated with each of these Models and the battery capacity enhancements.
 
 
 
