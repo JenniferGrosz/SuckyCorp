@@ -67,9 +67,9 @@ For the second objective, determining the effect of raising and lowering the bat
 Figure 4.A and Figure 4.B below provide visual representations of these results for total average scores per battery capacity tested over all environmental conditions.
  
  
-![Figure 4.A](03_plots_and_tables/avgtableb.png)
+![Figure 4.A](03_plots_and_tables/4A.png)
 
-![Figure 4.B](03_plots_and_tables/average_all_models_barTHISONE.png)
+![Figure 4.B](03_plots_and_tables/4B.png)
 
 Similar to my analysis for objective one, I have conducted the following additional analysis to show how each battery capacity comparatively performs under the extreme environmental conditions: high dirt, low walls and low dirt, high walls. The results are as follows:
 
@@ -82,9 +82,9 @@ with high dirt and low walls by 89% but this improvement was down 5% from the to
 
 Figure 5.A and Figure 5.B below provide visual representations of these results for average scores per battery capacity tested over all environments with high dirt and low walls.
  
-![Figure 5.A](03_plots_and_tables/high_low_bat.png) 
+![Figure 5.A](03_plots_and_tables/5A.png) 
 
-![Figure 5.B](03_plots_and_tables/highlowtable_b.png)
+![Figure 5.B](03_plots_and_tables/5B.png)
 
   - With the battery capacity lowered to 250 this model decreased average scores in conditions with low dirt and high walls by 48% which is down 134% from the top performing battery capacity.
   - With the battery capacity increased to 1000 this model improved average scores in conditions
@@ -99,9 +99,9 @@ conditions with low dirt and high walls by boosting scores by 141%.
 
 Figure 6.A and Figure 6.B below provide visual representations of these results for average scores per battery capacity tested over all environments with low dirt and high walls.
 
-![Figure 6.A](03_plots_and_tables/lowhightable_b.png) 
+![Figure 6.A](03_plots_and_tables/6A.png) 
 
-![Figure 6.B](03_plots_and_tables/low_high_bat.png)
+![Figure 6.B](03_plots_and_tables/6B.png)
 
 #### CONCLUSION
 In terms of performance under varying conditions, the Omniscient Sucky model performs the best across the board. However, Memory Sucky comes in at a close second when evaluating performance under high dirt and low wall environmental conditions and is consistently the second-best performing model across all other tests performed.
