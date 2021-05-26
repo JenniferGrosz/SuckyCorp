@@ -31,8 +31,10 @@ Figure 1.A presents a visual representation of total average scores per agent ca
 
 
 ![Figure 1.A](03_plots_and_tables/1a.png)
+_Figure 1.A_
 
 ![Figure 1.B](03_plots_and_tables/1B.png)
+_Figure 1.B_
 
 To present a better understanding of how each agent performs, I’ve included the below figures which show how each agent comparatively performs under the extreme environmental conditions: high dirt, low walls and low dirt, high walls. The results are as follows:
 
@@ -43,8 +45,10 @@ To present a better understanding of how each agent performs, I’ve included th
 Figure 2.A and Figure 2.B below provide visual representations of these results for average scores per battery capacity tested over all environments with high dirt and low walls.
  
 ![Figure 2.A](03_plots_and_tables/2B.png)
+_Figure 2.A_
 
 ![Figure 2.B](03_plots_and_tables/2A.png)
+_Figure 2.B_
 
   -The Sensing Sucky model improved average scores in conditions with low dirt and high walls by 209% but improvement was down 81% from the top scoring model, Omniscient Sucky.
 
@@ -54,8 +58,10 @@ Figure 2.A and Figure 2.B below provide visual representations of these results 
 Figure 3.A and Figure 3.B below provide visual representations of these results for average scores per battery capacity tested over all environments with low dirt and high walls.
  
 ![Figure 3.A](03_plots_and_tables/3B.png)
+_Figure 3.A_
 
 ![Figure 3.B](03_plots_and_tables/3A.png)
+_Figure 3.B_
 
 For the second objective, determining the effect of raising and lowering the battery capacity for the Memory Sucky model, I analyzed average score per environment for Memory Sucky models with battery capacities of 250, the standard 500, 1000, 1500 and 2000. Maintaining the battery capacity at its current level, 500, was used as the baseline for my analysis. The significant results of the linear regression analysis are as follows:
 
@@ -66,10 +72,11 @@ For the second objective, determining the effect of raising and lowering the bat
   
 Figure 4.A and Figure 4.B below provide visual representations of these results for total average scores per battery capacity tested over all environmental conditions.
  
- 
 ![Figure 4.A](03_plots_and_tables/4A.png)
+_Figure 4.A_
 
 ![Figure 4.B](03_plots_and_tables/4B.png)
+_Figure 4.B_
 
 Similar to my analysis for objective one, I have conducted the following additional analysis to show how each battery capacity comparatively performs under the extreme environmental conditions: high dirt, low walls and low dirt, high walls. The results are as follows:
 
@@ -83,8 +90,10 @@ with high dirt and low walls by 89% but this improvement was down 5% from the to
 Figure 5.A and Figure 5.B below provide visual representations of these results for average scores per battery capacity tested over all environments with high dirt and low walls.
  
 ![Figure 5.A](03_plots_and_tables/5A.png) 
+_Figure 5.A_
 
 ![Figure 5.B](03_plots_and_tables/5B.png)
+_Figure 5.B_
 
   - With the battery capacity lowered to 250 this model decreased average scores in conditions with low dirt and high walls by 48% which is down 134% from the top performing battery capacity.
   - With the battery capacity increased to 1000 this model improved average scores in conditions
@@ -100,8 +109,10 @@ conditions with low dirt and high walls by boosting scores by 141%.
 Figure 6.A and Figure 6.B below provide visual representations of these results for average scores per battery capacity tested over all environments with low dirt and high walls.
 
 ![Figure 6.A](03_plots_and_tables/6a.png) 
+_Figure 6.A_
 
 ![Figure 6.B](03_plots_and_tables/6B.png)
+_Figure 6.B_
 
 #### CONCLUSION
 In terms of performance under varying conditions, the Omniscient Sucky model performs the best across the board. However, Memory Sucky comes in at a close second when evaluating performance under high dirt and low wall environmental conditions and is consistently the second-best performing model across all other tests performed.
@@ -112,10 +123,15 @@ The Memory Sucky model makes for a perfect high-performance, lower-cost alternat
 
 With that said, if it is your intention to identify a method for improving Memory Sucky’s performance, it would be my recommendation to improve that model’s battery capacity as my tests have provided evidence that increasing battery capacity has a direct effect on improving this Sucky model’s performance. The graph shown as Figure C of the appendix is representative of the increasing relationship between battery capacity and total average score. In order to definitively determine at what level Memory Sucky’s battery capacity should be increased to, further analysis is required to account for the cost of increasing the battery capacity as well as the cost associated with manufacturing the Omniscient Sucky model. It would be a good next step for SuckyCorp. to determine at what level Memory Sucky outperforms even the Omniscient Sucky model, but in order to make a definitive statement about this the analysis would require cost information associated with each of these Models and the battery capacity enhancements.
 
+#### APPENDIX
+Figure A. is the output generated from the linear regression model used to determine the causal effect of
+each agent on average score.
 
+Model1: lm(averageScore ~ Agent, simResults)
+![Figure A](03_plots_and_tables/FigA.png)
 
-
-
+Figure B. is the plotted residuals from Model2 showing each agent’s effect on average score.
+![Figure B](03_plots_and_tables/FigB.png)
 
 
 
