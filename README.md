@@ -128,16 +128,24 @@ Figure A. is the output generated from the linear regression model used to deter
 each agent on average score.
 
 Model1: lm(averageScore ~ Agent, simResults)
+
 ![Figure A](03_plots_and_tables/FigA.png)
+_Figure A_
 
 Figure B. is the plotted residuals from Model2 showing each agent’s effect on average score.
+
 ![Figure B](03_plots_and_tables/FigB.png)
+_Figure B_
 
 Figure C. is the output generated from the linear regression models used to determine the causal effect
 of varying battery capacities on Memory Sucky’s average score. 
+
 ![Figure C](03_plots_and_tables/figc.png)
+_Figure C_
 
 Model1 <- lm(average_score ~ battery_capacity, battery_df)
+
 ![Figure D](03_plots_and_tables/figD.png)
+_Figure D_
 
  
