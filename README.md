@@ -151,14 +151,17 @@ Figure B. is the plotted residuals from Model2 showing each agent’s effect on 
 
 _Figure B_
 
+
 Figure C. is the output generated from the linear regression models used to determine the causal effect
 of varying battery capacities on Memory Sucky’s average score. 
+
+Model2: lm(average_score ~ battery_capacity, battery_df)
 
 ![Figure C](03_plots_and_tables/figc.png)
 
 _Figure C_
 
-Model1 <- lm(average_score ~ battery_capacity, battery_df)
+Figure D. is the plotted results from Regression Model2 showing each battery capacities’ effect on average score.
 
 ![Figure D](03_plots_and_tables/figD.png)
 
