@@ -1,6 +1,10 @@
 # SU_OMSBA5068_AI_Data_Translation_Challenge
 Data Translation Challenge SU 5068 Final Project
 
+#### Business Problem:
+SuckyCorp is relying on this analyses which will lead to product decisions involving their ever-expanding line of robot vacuum agents.  
+In this project I have summarized product tradeoffs for the whole Sucky line of agents and provided recommendations as to what products should be supported and which should not. The data for analysis was collected by running the candidate agents in the simulation testbed and recording the scores; the experiments were ran over a range of environmental conditions. The report additionally identifies whether or not the conclusions found depend on the environment, and if so, how.  
+
 #### Seattle University Artificial Intelligence
 ##### Data Translation Challenge March 2021
 ##### Author: Jennifer Grosz
