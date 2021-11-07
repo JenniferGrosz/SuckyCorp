@@ -1,4 +1,4 @@
-# SU_OMSBA5068_AI_Data_Translation_Challenge
+# Artificial Intelligence - Robot Vacuum Agent
 Data Translation Challenge SU 5068 Final Project
 
 #### Business Problem:
