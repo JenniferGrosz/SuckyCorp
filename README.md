@@ -1,7 +1,6 @@
 # AI - Robot Vacuum Agent Analysis
-#### Seattle University - Artificial Intelligence 5068
-#### Data Translation Challenge March 2021
-#### Author: Jennifer Grosz
+##### Seattle University - Artificial Intelligence 5068 - Data Translation Challenge March 2021
+##### Author: Jennifer Grosz
 
 #### Business Problem:
 SuckyCorp is havily relying on this analyses which will lead to product decisions involving their ever-expanding line of robot vacuum agents.  This project summarizes product tradeoffs for the whole Sucky line of agents and provides recommendations as to what products should be supported and which should not. The data for analysis was collected by running the candidate agents in the simulation testbed and recording their scores; the experiments were ran over a range of environmental conditions. The report additionally identifies whether or not the conclusions found depend on the environment, and if so, how.  
