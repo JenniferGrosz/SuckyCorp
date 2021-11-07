@@ -2,7 +2,7 @@
 ##### Seattle University - Artificial Intelligence 5068 - Data Translation Challenge March 2021
 ##### Author: Jennifer Grosz
 
-#### Business Problem:
+## Business Problem:
 SuckyCorp is havily relying on this analyses which will lead to product decisions involving their ever-expanding line of robot vacuum agents.  This project summarizes product tradeoffs for the whole Sucky line of agents and provides recommendations as to what products should be supported and which should not. The data for analysis was collected by running the candidate agents in the simulation testbed and recording their scores; the experiments were ran over a range of environmental conditions. The report additionally identifies whether or not the conclusions found depend on the environment, and if so, how.  
 
 
@@ -20,7 +20,7 @@ In regard to the popular Memory Sucky Model, the following are my findings on th
   - However, in environments with low dirt and high walls, I found the previous statement does not
 hold as increasing the battery capacity to 1500 resulted in 5% better average performance scores than increasing the battery capacity to 2000.
 
-#### SUPPORTING ANALYSIS
+## SUPPORTING ANALYSIS
 For the first objective, determining how the expected scores compare across varying environmental conditions, I analyzed each model relative to the Non-Sensing Sucky model which is used as the benchmark for my analysis. The significant results of the linear regression analysis are as follows:
 
   - The Sensing Sucky model scores an average of 69 points higher than the Non-Sensing Model, which is a total average score of 94 points. This model improved total average scores by 275% but improvement was down 60% from the top scoring model, Omniscient Sucky.
@@ -128,7 +128,7 @@ _Figure 6.A_
 
 _Figure 6.B_
 
-#### CONCLUSION
+## CONCLUSION
 In terms of performance under varying conditions, the Omniscient Sucky model performs the best across the board. However, Memory Sucky comes in at a close second when evaluating performance under high dirt and low wall environmental conditions and is consistently the second-best performing model across all other tests performed.
 
  It is my recommendation, based on this score-performance analysis, that both the Omniscient Sucky and Memory Sucky should be Sucky models included in SuckyCorp’s line of Vacuum Agents as their performance data generated through this analysis speaks for itself – both of these Sucky models significantly and consistently outperform the Sensing Sucky and the Non-Sensing Sucky models. Additionally, this pair of models are ensured to do what customers expect SuckyCorp products to provide: top of the line vacuum agents who will suck up dirt and ensure workplaces are free of dirt.
@@ -137,7 +137,7 @@ The Memory Sucky model makes for a perfect high-performance, lower-cost alternat
 
 With that said, if it is your intention to identify a method for improving Memory Sucky’s performance, it would be my recommendation to improve that model’s battery capacity as my tests have provided evidence that increasing battery capacity has a direct effect on improving this Sucky model’s performance. The graph shown as Figure C of the appendix is representative of the increasing relationship between battery capacity and total average score. In order to definitively determine at what level Memory Sucky’s battery capacity should be increased to, further analysis is required to account for the cost of increasing the battery capacity as well as the cost associated with manufacturing the Omniscient Sucky model. It would be a good next step for SuckyCorp. to determine at what level Memory Sucky outperforms even the Omniscient Sucky model, but in order to make a definitive statement about this the analysis would require cost information associated with each of these Models and the battery capacity enhancements.
 
-#### APPENDIX
+## APPENDIX
 Figure A. is the output generated from the linear regression model used to determine the causal effect of
 each agent on average score.
 
